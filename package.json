@@ -21,6 +21,6 @@
     "dev": "rollup -c -w",
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev",
-    "deploy": "gh-pages -d public"
+    "deploy": "npm run build && gh-pages -d build/public"
   }
 }
